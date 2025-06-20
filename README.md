@@ -1,10 +1,8 @@
 
-````markdown
+
 # Dependency Injection using Spring Boot
 
 This project demonstrates how Spring Boot handles dependency injection using the IoC container and the `@Component` annotation.
-
----
 
 ## Description
 
@@ -48,4 +46,3 @@ This class is annotated with `@Component`, which tells Spring to register it as 
 * Spring Boot automatically scans and registers `@Component` annotated classes.
 * The `Dev` class can then be retrieved using `ApplicationContext.getBean(Dev.class)`.
 * This demonstrates how Spring handles object creation and dependency injection using annotations.
-
